@@ -25,4 +25,21 @@ def greet_ten_times
 end
 #how_old_are_you
 # greet_ten_times
-greet
+# greet
+
+=begin
+This is a multilie
+comment in Rubys
+=end
+
+=begin
+The above code aims to read a file
+line by line
+=end
+def read_file_lines
+    File.foreach("ruby_basics/1_data_types/exercises/letters.txt").with_index do |line, line_num|
+        puts "#{line_num}, #{line}"
+    end
+end
+
+read_file_lines
