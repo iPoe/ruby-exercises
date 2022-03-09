@@ -1,6 +1,9 @@
 def greet
-    name = gets.chomp
-    puts "Hello #{name} pleasure to meet you"
+    puts "Hey, your first name is?"
+    first_name = gets.chomp
+    puts "and your last name is?"
+    last_name = gets.chomp
+    puts "Hello #{first_name} #{last_name} pleasure to meet you"
 end
 
 def how_old_are_you()
@@ -20,5 +23,6 @@ def greet_ten_times
         puts "Your name is #{name}"
     end
 end
-
-greet_ten_times
+#how_old_are_you
+# greet_ten_times
+greet
